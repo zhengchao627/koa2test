@@ -15,5 +15,30 @@
   "bugs": {
     "url": "https://github.com/zhengchao627/koa2test/issues"
   },
-  "homepage": "https://github.com/zhengchao627/koa2test#readme"
+  "homepage": "https://github.com/zhengchao627/koa2test#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "co": "^4.6.0",
+    "koa": "^2.4.1",
+    "koa-convert": "^1.2.0",
+    "koa-simple-router": "^0.2.0",
+    "koa-static": "^4.0.2",
+    "koa-swig": "^2.2.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.9.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^5.0.0",
+    "phantomjs": "^2.1.7+deprecated",
+    "supertest": "^3.0.0"
+  }
 }
